@@ -1,5 +1,5 @@
-export const contractAddress = "0x0923B10383A7a7b4198049Aa19fA12f9741eB2C1";
-export const abdiCode= [
+export const contractAddress = "0xf01ac6D92B85D2B4BD9D3439A5ca820e8a7411cC";
+export const abiCode= [
   {
     "constant": false,
     "inputs": [

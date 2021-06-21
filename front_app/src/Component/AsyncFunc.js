@@ -1,9 +1,9 @@
 import Web3 from 'web3';
-import { abdiCode, contractAddress } from "../contrractInfo";
+import { abiCode, contractAddress } from "./contrractInfo";
 
 
 const web3 = new Web3(Web3.givenProvider);
-const contract = new web3.eth.Contract(abdiCode, contractAddress);
+const contract = new web3.eth.Contract(abiCode, contractAddress);
 
     /*
     const handle = async () => {
@@ -12,10 +12,12 @@ const contract = new web3.eth.Contract(abdiCode, contractAddress);
     }
   */
 
+    
 export const handleButton = async ( inputvalues, outputvalues ) => {
     console.log('input value',inputvalues);
     console.log('output value', outputvalues);
-    //e.preventDefault();
+
+
         const accounts = await window.ethereum.send('eth_requestAccounts');
         const account = accounts.result[0];
         const nounce = await web3.eth.getTransactionCount(account);

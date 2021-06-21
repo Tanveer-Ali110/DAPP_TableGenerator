@@ -13,7 +13,7 @@ function OutputComponent({ inputvalues, outputvalues }) {
                                     <Table size='sm'  >
                                         <tbody >
                                             <Row>
-                                                <Col>{inputvalues[0]}</Col>
+                                                <Col>{inputvalues}</Col>
                                                 <Col> *</Col>
                                                 <Col>{ind + 1}</Col>
                                                 <Col>=</Col>

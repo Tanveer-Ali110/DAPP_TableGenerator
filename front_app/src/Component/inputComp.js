@@ -3,6 +3,7 @@ import {handleButton} from './AsyncFunc';
 import { Button, InputGroup, InputGroupAddon, Input } from 'reactstrap';
 import { Row } from 'reactstrap';
 
+
 function InputComponent({ inputvalues, outputvalues }) {
 
     return (
